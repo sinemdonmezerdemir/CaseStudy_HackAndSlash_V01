@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5675919793251187583
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAtVacoomVfx
+  m_Shader: {fileID: -6465566751694194690, guid: ac2e2b24f2c060847b4ac35e757f67c9,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GradientShading_759c0974fd374dd0a7f71700417730cd_GradientTexture_828758364_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 617356bcc6fffde428a855a29d580245, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1bc8ff0aac0247698c22db20bbfabcfb_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: bae2d53bf0fd5924aad1f9f7aa1c0d74, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_58a6809299944c24ad66412d73da1562_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 617356bcc6fffde428a855a29d580245, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b961c90c9deb4ce599ff2122bd098222_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: bae2d53bf0fd5924aad1f9f7aa1c0d74, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e14da49d40df4d40bcb953cb7787e80e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 54bd28dfa76230b418674e15c0c26252, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _MuzzleAmount: 10000
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color: {r: 0.8443396, g: 1, b: 0.96642613, a: 0}
+    - _MuzzleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WindColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WindRotate: {r: 0.5, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []
